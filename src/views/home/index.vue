@@ -3,7 +3,7 @@
     <!-- 标题 -->
     <div class="header">
       <div class="header-title">
-        <span class="title-txt">JINGQI</span>
+        <span class="title-txt">鲸奇</span>
         <span class="title-en">design</span>
       </div>
       <span class="header-btn" @click.stop="showCode">关注</span>
@@ -98,6 +98,7 @@ export default {
       font-size: 48px;
       line-height: 48px;
       color: #8c8c8c;
+      font-weight: 400;
     }
   }
   .header-btn {
