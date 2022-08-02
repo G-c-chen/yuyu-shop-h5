@@ -3,7 +3,7 @@
     <!-- 标题 -->
     <div class="header">
       <div class="header-title">
-        <span class="title-txt">鲸奇</span>
+        <span class="title-txt">JINGQI</span>
         <span class="title-en">design</span>
       </div>
       <span class="header-btn" @click.stop="showCode">关注</span>
@@ -87,6 +87,7 @@ export default {
   .header-title {
     display: flex;
     flex-direction: column;
+    text-align: left;
     font-size: 80px;
     line-height: 80px;
     font-weight: 700;
@@ -124,6 +125,7 @@ export default {
     font-weight: 600;
   }
   .sub-title {
+    margin-top: 20px;
     font-size: 48px;
     color: #000;
     font-weight: 600;

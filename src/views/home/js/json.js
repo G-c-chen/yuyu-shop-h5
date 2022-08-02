@@ -1,7 +1,8 @@
 export const recommendList = [
   {
     title: '神明情侣',
-    sub_title: '',
+    sub_title: '愿你一路上，有良人相伴，祝你幸福',
+    author: '艺神',
     cover: require(`../../../assets/七夕红包/神明情侣/cover.jpg`),
     video: require(`../../../assets/七夕红包/神明情侣/video.mp4`)
   },
@@ -34,7 +35,8 @@ export const recommendList = [
 export const HomeList = [
   {
     title: '神明情侣',
-    sub_title: '',
+    sub_title: '愿你一路上，有良人相伴，祝你幸福',
+    author: '艺神',
     cover: require(`../../../assets/七夕红包/神明情侣/cover.jpg`),
     video: require(`../../../assets/七夕红包/神明情侣/video.mp4`)
   },
@@ -328,7 +330,7 @@ export const HomeList = [
   },
   {
     title: '烟花',
-    sub_title: '',
+    sub_title: '纵有山河远阔 你是人间烟火',
     cover: require(`../../../assets/七夕红包/烟花/cover.jpg`),
     video: require(`../../../assets/七夕红包/烟花/video.mp4`)
   },

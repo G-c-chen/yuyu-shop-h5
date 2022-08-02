@@ -28,7 +28,7 @@
         <div class="content-header">
           <div class="header-title">
             <span class="title-txt">{{ curItem.title }}</span>
-            <span class="title-en">红包祝福语</span>
+            <span class="title-en">{{curItem.sub_title || ''}}</span>
           </div>
           <span class="header-btn" @click="exchangeClick(curItem)"
             >确认兑换</span
@@ -243,16 +243,17 @@ export default {
     .header-title {
       display: flex;
       flex-direction: column;
-      font-size: 42px;
+      font-size: 38px;
       font-weight: 600;
       color: #000000;
+      text-align: left;
       .title-txt {
       }
       .title-en {
-        font-size: 32px;
+        font-size: 26px;
         text-align: left;
         color: #666;
-        font-weight: 500;
+        font-weight: 400;
       }
     }
     .header-btn {
@@ -269,13 +270,13 @@ export default {
   }
 }
 .content-video {
-  // width: 683px;
+  width: 683px;
   width: 100%;
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  // height: 676px;
+  height: 676px;
   margin: 0 auto;
   video {
     height: 100%;
