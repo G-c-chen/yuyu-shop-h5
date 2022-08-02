@@ -4,9 +4,11 @@ import router from "./router";
 import store from "./store";
 import 'lib-flexible/flexible.js'
 
-import {Sticky, Popup} from 'vant';
+import {Sticky, Popup, Lazyload, Image as VanImage} from 'vant';
 Vue.use(Sticky);
 Vue.use(Popup);
+Vue.use(Lazyload);
+Vue.use(VanImage);
 
 import "vant/lib/index.css";
 

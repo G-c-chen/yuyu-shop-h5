@@ -23,7 +23,7 @@
     <van-popup class="code-pop" v-model="showCodePop">
       <div class="code-content">
         <p>关注公众号领取现金红包</p>
-        <img src="../../assets/images/kefu.jpeg" alt="">
+        <img src="../../assets/images/kefu.jpg" alt="">
       </div>
     </van-popup>
   </div>

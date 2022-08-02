@@ -7,7 +7,7 @@
     <swiper class="swiper-box" :options="swiperOption" ref="mySwiper">
       <swiper-slide class="slide-item" v-for="(item, index) in list" :key="index">
         <div class="swiper-content" @click="sclectitem(item, index)">
-          <img :src="item.cover" alt="">
+          <van-image class="item-img" :src="item.cover" lazy-load alt="" />
         </div>
       </swiper-slide>
     </swiper>
@@ -85,7 +85,7 @@ video {
   justify-content: center;
   padding: 20px 0;
   width: 205px;
-  img {
+  .item-img {
     width: 205px - 40px;
     
   }

@@ -7,7 +7,7 @@
         v-for="(item, index) in list"
         :key="index"
       >
-        <img v-if="item.cover" class="item-img" :src="item.cover" alt="" />
+        <van-image v-if="item.cover" lazy-load class="item-img" :src="item.cover" alt="" />
       </div>
       <!-- <div class="item-content" :class="[`content-${curIndex%4}`]" v-if="insertPos === index && ishowContent">
           <div class="content-header">
@@ -44,9 +44,9 @@
       <div class="pop-content">
         <p class="pop-title">兑换步骤</p>
         <p class="row-txt">1、关注公众号</p>
-        <img class="code-img" src="../../../assets/images/kefu.jpeg" alt="" />
+        <img class="code-img" src="../../../assets/images/kefu.jpg" alt="" />
         <p class="row-txt">2、发送抖音订单号和兑换的款式名称</p>
-        <img class="send-img" src="../../../assets/images/send.jpeg" alt="" />
+        <img class="send-img" src="../../../assets/images/send.jpg" alt="" />
       </div>
     </van-popup>
   </div>
@@ -158,6 +158,7 @@ export default {
       width: 154px;
       border-radius: 22px;
       box-shadow: 0px 6px 14px 3px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
     }
   }
 }
