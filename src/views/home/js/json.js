@@ -49,7 +49,7 @@ export const HomeList = [
     title: '卫衣情侣',
     sub_title: '',
     cover: require(`../../../assets/七夕红包/卫衣情侣/cover.jpg`),
-    // video: require(`../../../assets/七夕红包/卫衣情侣/video.mp4`)
+    video: require(`../../../assets/七夕红包/卫衣情侣/video.mp4`)
   },
   {
     title: '七夕',
